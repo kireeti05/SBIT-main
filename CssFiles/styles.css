@@ -61,10 +61,10 @@ section, footer{
 	height: 320px;/* 370*/	
 	
 	
-	/* margin-top: 10%;*/
+	/* margin-top: 10%; */
 	/* margin-left: 40%;  */
 	/* margin:0 auto; */
-	position:relative; 
+	position:relative;
 	z-index:1;
 	
 	-moz-perspective: 800px;
