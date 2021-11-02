@@ -13,11 +13,11 @@ margin: 20px;
 
 .navbar ul {
 margin: 0px;
-height: 30px;
+height: 38px;
 background-color: #800000;
 font-size: 28px;
 text-align: center;
-padding: 2px;
+padding: 1px;
 list-style-type: none;
 border-radius: 5px;
 }
