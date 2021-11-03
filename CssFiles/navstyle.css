@@ -1,7 +1,6 @@
 body{
-  font-family: 'Zen Kurenaido'!important;
-  color: #0f8efe !important;
-  background-color: #FAF9F6 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #000080 !important;
 }
 
 .header {
@@ -20,12 +19,10 @@ margin-top: 20px;
 .navbar ul {
 margin: 0px;
 height: 30px;
-background-color: #FAF9F6;
-font-size: 30px;
+font-size: 20px;
 text-align: center;
 padding: 1px;
 list-style-type: none;
-font-family: 'Zen Kurenaido'
 }
 
 .navbar{
@@ -42,7 +39,7 @@ margin: 50px;
 .navbar ul li a{
 text-decoration: none;
 padding: 8px;
-color: #39475c;
+color: #000080;
 border-radius: 40px;
 }
 
@@ -70,7 +67,7 @@ color: #0f8efe;
   animation: slide 15s infinite;
   }
   
-  img{
+  .img1{
   float: left;
   }
   
