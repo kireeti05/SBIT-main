@@ -1,5 +1,11 @@
+body{
+  font-family: 'Zen Kurenaido'!important;
+  color: #0f8efe !important;
+  background-color: #FAF9F6 !important;
+}
+
 .header {
-height: 90px;
+height: 60px;
 text-align: center;
 background-color: #8fc0cf;
 border-radius: 5px;
@@ -7,19 +13,25 @@ border-radius: 5px;
 
 #content {
 text-align: center;
-padding: 20px;
-margin: 20px;
+padding: 10px;
+margin-top: 20px;
 }
 
 .navbar ul {
 margin: 0px;
-height: 38px;
-background-color: #800000;
-font-size: 28px;
+height: 30px;
+background-color: #FAF9F6;
+font-size: 30px;
 text-align: center;
 padding: 1px;
 list-style-type: none;
-border-radius: 5px;
+font-family: 'Zen Kurenaido'
+}
+
+.navbar{
+  margin-top: 40px !important;
+  width: fit-content;
+  margin: auto;
 }
 
 .navbar ul li {
@@ -29,17 +41,46 @@ margin: 50px;
 
 .navbar ul li a{
 text-decoration: none;
-padding: 0.2em 0.4em;
-color: white;
-border-radius: 10px;
+padding: 8px;
+color: #39475c;
+border-radius: 40px;
 }
 
 .navbar ul li a:hover{
-background-color: white;
-color: black;
+background-color: #def0ff;
+color: #0f8efe;
 }
 
-.navbar ul li a.active{
-background-color: white;
-color: black;
+.navbar ul li a.active1{
+background-color: #def0ff;
+color: #0f8efe;
 }
+
+.outerbox{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  overflow: hidden;
+  }
+  
+  .sliderbox{
+  position: relative;
+  width: 2800px;
+  animation: slide 15s infinite;
+  }
+  
+  img{
+  float: left;
+  }
+  
+  @keyframes slide{
+    0%{ left: 0px;}
+    20%{ left: 0px;}
+    25%{ left: -700px;}
+    45%{ left: -700px;}
+    50%{ left: -1400px;}
+    70%{ left: -1400px;}
+    75%{ left: -2100px;}
+    95%{ left: -2100px;}
+  }
