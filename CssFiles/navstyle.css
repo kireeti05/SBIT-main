@@ -45,12 +45,12 @@ border-radius: 40px;
 
 .navbar ul li a:hover{
 background-color: #def0ff;
-color: #0f8efe;
+color: #000080;
 }
 
 .navbar ul li a.active1{
 background-color: #def0ff;
-color: #0f8efe;
+color: #000080;
 }
 
 .outerbox{
