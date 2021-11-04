@@ -88,7 +88,7 @@ color: #0f8efe;
   .sliderbox{
   position: relative;
   width:8600px;
-  animation: slide 15s infinite;
+  animation: slide 20s infinite;
   }
 
   img{
@@ -105,5 +105,8 @@ color: #0f8efe;
   object-fit: cover; 
   width: 286px; 
   height:180px;
+}
+.slider{
+  background-image: url("images\Dottedbackground.jpg");
 }
  
