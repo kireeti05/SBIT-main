@@ -2,15 +2,13 @@
 <html>
 <head>
 	<title> SBIT TPO EditDetails </title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="./CssFiles/navstyle.css">
   <link rel="stylesheet" href="CssFiles/bootstrap.css">
   <link rel="stylesheet" href="CssFiles/styles.css">
 	<style>
 		body{
 			font-family: Arial, Helvetica, sans-serif;
-            /*background-image: url("images/Dottedbackground.jpg");*/
-
-
 		}
         ::placeholder{
             color: black !important;
@@ -20,19 +18,24 @@
 </head>
 
 <body>
-	<!--<img src = "sbit-khammam4.jpg" style="margin-left: auto; margin-right: auto; width: 50%; display: block;">-->
+    <nav class="navbar navbar1">
+        <img src="./images/logo.jpg" class="img-fluid" style="margin-left:30px;margin-right: auto; width:50%; height: auto;">
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links navbar1">
+      <ul>
+        <li><a href="index.html">Placements</a></li>
+        <li><a href="trainings.html">Trainings</a></li>
+        <li><a href="jobportal.html">Job Portal</a></li>
+        <li><a href="edit.html" class="active1">Edit Details</a></li>
+        <li><a href="Login.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="navbar">
-		<ul>
-			<li><img src="./images/logo.jpg"  style="margin-left:0px;margin-right: auto; width:50%; height:100px;"></li>
-
-            <li><a href="index.html"> Placements </a></li>
-            <li><a href="trainings.html"> Trainings </a></li>
-            <li><a href="jobportal.html"> Job Portal </a></li>
-            <li><a href="edit.html" class="active1"> Edit Details </a></li>
-			<li><a href="Login.html">Logout</a></li>
-            </ul>
-	</div>
   <div id="formContainer" class="" style="margin: auto;">
     <form id="edit" name="edit" title="edit form" role="form" method="post" action="register.php">
       <br>
@@ -66,5 +69,6 @@
       </div>
   </form>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
