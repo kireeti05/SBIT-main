@@ -21,7 +21,7 @@ body {
   width: 10vw;
   height: 10vw;
   border: 2px solid grey;
-  transform: rotateY(180deg);
+ /* transform: rotateY(180deg);*/
   animation-name: photo;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -37,4 +37,20 @@ body {
   animation-name: text;
   animation-duration: 1s;
   animation-fill-mode: forwards
+}
+@media (max-width: 800px) {
+  .img1 {
+    width: 25%;
+    height: auto;
+  }
+  .test1{
+    height: auto;
+    background-color: transparent;
+    margin-left: 70px;
+  }
+  .img2{
+    float: left;
+    margin-top: 0px;
+  }
+ 
 }
